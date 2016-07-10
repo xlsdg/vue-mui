@@ -3,13 +3,17 @@ export default function routerInit(router) {
     router.map({
         //默认
         '/':{
-            name: 'index',
-            component: require('./views/index.vue')
+            'name': 'index',
+            'component': function(reslove){
+                return require(['./views/index.vue'], reslove);
+            }
         },
         // 404 页
         '*': {
-            name: '404',
-            component: require('./views/404.vue')
+            'name': '404',
+            'component': function(reslove){
+                return require(['./views/404.vue'], reslove);
+            }
         }
     });
 
