@@ -1,0 +1,15 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "priority": 0,
+    "resources": [
+      "static/css/app.css",
+      "static/css/mui.min.css",
+      "static/fonts/mui.ttf",
+      "static/js/app.js",
+      "static/js/manifest.js",
+      "static/js/mui.min.js",
+      "static/js/vendor.js"
+    ]
+  }
+}
