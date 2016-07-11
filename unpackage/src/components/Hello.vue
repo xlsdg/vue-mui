@@ -4,13 +4,24 @@
     </div>
 </template>
 
-<script>
+<script type="text/babel">
     export default {
-        data() {
+        name: 'hello',
+        components: {},
+        props: {},
+        data () {
             return {
                 msg: 'Hello World!'
             };
-        }
+        },
+        methods: {},
+        created () {},
+        beforeCompile () {},
+        compiled () {},
+        ready () {},
+        beforeDestroy () {},
+        destroyed () {},
+        watch: {}
     };
 </script>
 

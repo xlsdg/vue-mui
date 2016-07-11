@@ -8,13 +8,20 @@
     export default {
         name: 'app',
         components: {},
+        props: {},
         data () {
-            return {};
+            return {
+                msg: 'Hello World!'
+            };
         },
-        created () {
-        },
-        methods: {
-        }
+        methods: {},
+        created () {},
+        beforeCompile () {},
+        compiled () {},
+        ready () {},
+        beforeDestroy () {},
+        destroyed () {},
+        watch: {}
     };
 </script>
 
