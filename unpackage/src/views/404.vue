@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
     .not-found {
         margin-top: 100px;
         text-align: center;

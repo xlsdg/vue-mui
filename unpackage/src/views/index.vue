@@ -27,7 +27,7 @@
     };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
     .index {
         margin-top: 100px;
         text-align: center;

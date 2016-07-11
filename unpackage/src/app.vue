@@ -24,6 +24,6 @@
     };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
     .router-view {}
 </style>
