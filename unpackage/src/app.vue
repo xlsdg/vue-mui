@@ -6,22 +6,21 @@
 
 <script type="text/babel">
     export default {
-        name: 'app',
-        components: {},
-        props: {},
+        'name': 'app',
+        'components': {},
+        'props': {},
         data () {
-            return {
-                msg: 'Hello World!'
-            };
+            return {};
         },
-        methods: {},
+        'computed': {},
+        'methods': {},
         created () {},
         beforeCompile () {},
         compiled () {},
         ready () {},
         beforeDestroy () {},
         destroyed () {},
-        watch: {}
+        'watch': {}
     };
 </script>
 

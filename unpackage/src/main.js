@@ -12,10 +12,10 @@ Vue.use(VueRouter);
 import routerInit from './router';
 
 var router = new VueRouter({
-    hashbang: false,
-    history: true,
-    abstract: true,
-    saveScrollPosition: true
+    'hashbang': false,
+    'history': true,
+    'abstract': true,
+    'saveScrollPosition': true
 });
 
 routerInit(router);

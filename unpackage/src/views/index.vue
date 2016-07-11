@@ -6,24 +6,24 @@
 </template>
 
 <script type="text/babel">
-    import hello from '../components/Hello';
     export default {
-        name: 'index',
-        components: {
-            hello
+        'name': 'index',
+        'components': {
+            'hello': require('../components/Hello')
         },
-        props: {},
+        'props': {},
         data () {
             return {};
         },
-        methods: {},
+        'computed': {},
+        'methods': {},
         created () {},
         beforeCompile () {},
         compiled () {},
         ready () {},
         beforeDestroy () {},
         destroyed () {},
-        watch: {}
+        'watch': {}
     };
 </script>
 

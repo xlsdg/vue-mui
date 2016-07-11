@@ -6,22 +6,23 @@
 
 <script type="text/babel">
     export default {
-        name: 'hello',
-        components: {},
-        props: {},
+        'name': 'hello',
+        'components': {},
+        'props': {},
         data () {
             return {
-                msg: 'Hello World!'
+                'msg': 'Hello World!'
             };
         },
-        methods: {},
+        'computed': {},
+        'methods': {},
         created () {},
         beforeCompile () {},
         compiled () {},
         ready () {},
         beforeDestroy () {},
         destroyed () {},
-        watch: {}
+        'watch': {}
     };
 </script>
 

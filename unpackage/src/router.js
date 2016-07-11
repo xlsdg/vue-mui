@@ -2,16 +2,16 @@ export default function routerInit(router) {
     //路由表
     router.map({
         //默认
-        '/':{
+        '/': {
             'name': 'index',
-            'component': function(reslove){
+            'component': function (reslove) {
                 return require(['./views/index.vue'], reslove);
             }
         },
         // 404 页
         '*': {
             'name': '404',
-            'component': function(reslove){
+            'component': function (reslove) {
                 return require(['./views/404.vue'], reslove);
             }
         }
